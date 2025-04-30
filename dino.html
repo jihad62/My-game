@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Dino Game</title>
+  <style>
+    body { text-align: center; font-family: sans-serif; }
+    canvas { background: #f7f7f7; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Dino Game - Custom Mode</h1>
+  <p>Touch to jump</p>
+
+  <script src="https://cdn.jsdelivr.net/gh/nathan/phaser-dino@master/dino.js"></script>
+  
+  <script>
+    setTimeout(() => {
+      Runner.instance_.setSpeed(40); // এখানে স্পিড বাড়াও: 20 = Slow, 40 = Hard, 70 = Super Hard
+    }, 1000);
+  </script>
+</body>
+</html>
